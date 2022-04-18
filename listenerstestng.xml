@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Listeners TestNG Suite">
+
+  <listeners>
+  	<listener class-name="org.raysrus.listeners.DemoListeners"></listener>
+  </listeners>
+  
+  <test thread-count="1" name="Listeners Test">
+    <classes>
+      <class name="org.raysrus.listeners.SampleTestListenersExample"/>
+    </classes>
+  </test> <!-- Listeners Test -->
+</suite> <!-- Listeners TestNG Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Parameters Suite">
+  <test thread-count="1" name="Test Parameters via XML file">
+  
+  	<parameter name="browser" value="Mozilla"></parameter>
+  	<parameter name="userName" value="subhrajit.ray@gmail.com"></parameter>
+  	<parameter name="password" value="Test@12345"></parameter>
+  	
+  	<classes>
+  		<class name="org.raysrus.parameters.TestParametersViaXmlFile"></class>
+  	</classes>
+  	
+  </test> <!-- Test Parameters via XML file -->
+</suite> <!-- Parameters Suite -->

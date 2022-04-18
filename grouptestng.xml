@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Group Test Suite">
+  <test thread-count="1" name="Grouping Test">
+  	<groups>
+  		<run>
+  			<include name="Regression"></include>
+  			<include name="Smoke Test"></include>
+  			<exclude name="Sanity"></exclude>
+  		</run>
+  	</groups>
+  	
+    <classes>
+      <class name="org.raysrus.testgrouping.TestCaseGrouping"/>
+    </classes>
+  </test> <!-- Grouping Test -->
+</suite> <!-- Group Test Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="DataProvider Suite">
+  <test thread-count="1" name="Acceptance Level">
+    <classes>
+      <class name="org.raysrus.dataprovider.DataProviderAcceptanceTestExample"/>
+    </classes>
+  </test> <!-- Acceptance Level -->
+  
+  <test thread-count="1" name="Unit Test Level">
+    <classes>
+      <class name="org.raysrus.dataprovider.DataProviderScenarioTestExample"/>
+    </classes>
+  </test> <!-- Unit Test Level -->
+  
+  <test thread-count="1" name="Integration Level">
+    <classes>
+      <class name="org.raysrus.dataprovider.DataProviderIntegrationTestExample"/>
+    </classes>
+  </test> <!-- Integration Level -->
+</suite> <!-- DataProvider Suite -->

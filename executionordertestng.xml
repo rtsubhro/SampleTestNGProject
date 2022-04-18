@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ExecutionOrderSuite">
+  <test thread-count="5" name="ExecutionOrderTest">
+    <classes>
+      <class name="org.raysrus.executionorder.AnnotationsTestNGUsage"/>
+      <class name="org.raysrus.executionorder.SampleTestNGUsage"/>
+    </classes>
+  </test> <!-- ExecutionOrderTest -->
+</suite> <!-- ExecutionOrderSuite -->

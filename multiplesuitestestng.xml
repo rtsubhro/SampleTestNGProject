@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Multiple Suites TestNG Suite">
+	<suite-files>
+		<suite-file path="testng.xml"></suite-file>
+		<suite-file path="parameterstestng.xml"></suite-file>
+		<suite-file path="dataprovidertestng.xml"></suite-file>
+		<suite-file path="listenerstestng.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Multiple Suites TestNG Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Test Suite]">
+  <test thread-count="5" name="Skipping Tests Example Test Case(failed)">
+    <classes>
+      <class name="org.raysrus.SkippingTestsExample">
+        <methods>
+          <include name="testThree"/>
+        </methods>
+      </class> <!-- org.raysrus.SkippingTestsExample -->
+    </classes>
+  </test> <!-- Skipping Tests Example Test Case(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->
